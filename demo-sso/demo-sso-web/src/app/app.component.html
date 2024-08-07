@@ -1,0 +1,4 @@
+<button class="btn btn-outline-danger log-out" *ngIf="loginDisplay" (click)="logout()">Log out</button>
+<button class="btn btn-primary log-in" *ngIf="!loginDisplay" (click)="login()">Login</button>
+
+<router-outlet></router-outlet>
